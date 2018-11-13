@@ -149,6 +149,10 @@ document.addEventListener("DOMContentLoaded", () => {
     painting = false;
   }, false);
 
+  canvasEl.addEventListener("mouseout", () => {
+    painting = false;
+  }, false);
+
   window.setInterval(() => {
     let rednesses = [];
     for (let cell of allCells) {
