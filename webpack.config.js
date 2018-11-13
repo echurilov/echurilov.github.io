@@ -1,17 +1,10 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: "./assets/js/solovoi.js",
     output: {
         filename: "./solovoi.js"
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: path.join(__dirname, 'index.ejs'),
-            title: 'Elena Churilov'
-        })
-    ],
     module: {
         rules: [
             {
