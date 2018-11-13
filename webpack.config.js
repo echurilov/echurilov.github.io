@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
     entry: "./assets/js/solovoi.js",
     output: {
-        filename: "./solovoi.js"
+        filename: "./bundle.js"
     },
     module: {
         rules: [
