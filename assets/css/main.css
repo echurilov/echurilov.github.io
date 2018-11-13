@@ -1398,6 +1398,14 @@
 				opacity: 1;
 			}
 
+			#title {
+				position: relative;
+				top: -25em;
+				left: 50%;
+				transform: translateX(-50%); 
+				width: 30em;
+			} 
+
 		body.is-loading #header.alt:before {
 			background-color: black;
 		}

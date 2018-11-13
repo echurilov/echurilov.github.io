@@ -1,0 +1,31 @@
+{
+  "name": "solovoi",
+  "version": "1.0.0",
+  "description": "Voronoi cell diffusion gradient simulator",
+  "author": "Elena Churilov",
+  "license": "MIT",
+  "homepage": "https://github.com/echurilov/solovoi",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --mode=development",
+    "build": "webpack --progress --mode=production -p",
+    "start": "webpack --progress --mode=production -p  && serve dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/echurilov/solovoi.git"
+  },
+  "dependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "8.0.4",
+    "d3": "^5.7.0",
+    "d3-delaunay": "^4.1.5",
+    "html-webpack-plugin": "3.2.0",
+    "serve": "^10.0.2",
+    "webpack": "4.20.2",
+    "webpack-cli": "3.1.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.1.10"
+  }
+}

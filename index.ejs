@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Elena Churilov</title>
+		<title><%= htmlWebpackPlugin.options.title %></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="shortcut icon" type="image/png" href="images/EC.png"/>
@@ -17,8 +17,11 @@
 		<!-- Header -->
 			<header id="header" class="alt">
 				<div class="inner">
-					<h1>Elena Churilov</h1>
-					<p>Full-stack Software Developer</a></p>
+					<canvas id="banner"></canvas>
+					<div id="title">
+						<h1>Elena Churilov</h1>
+						<p>Full-stack Software Developer</p>
+					</div>
 				</div>
 			</header>
 
