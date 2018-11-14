@@ -177,6 +177,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     highlightCell(currentHoverCell, currentHoverCell.fill, { red: 255, green: 255, blue: 255, alpha: 1.0 });
-  }, 10);
+  }, 1);
 
 });
