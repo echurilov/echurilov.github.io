@@ -1622,12 +1622,12 @@
 
 	}
 
-		#intro p {
-			padding-top: 3em;
+		#intro .blurb {
+			margin: 3em;
 		}
 
-		#intro li {
-			margin-bottom: 3em;
+		#intro .icons {
+			padding: 0em 0em 3em 0em;
 		}
 
 /* CTA */
