@@ -136,17 +136,21 @@ document.addEventListener("DOMContentLoaded", () => {
   canvasEl.addEventListener("mousedown", (mouse) => {
     mouse.preventDefault();
     mouseButton = mouse.button;
-    painting = true;
+    // painting = true;
   }, false);
 
   canvasEl.addEventListener('contextmenu', (mouse) => {
     mouse.preventDefault();
     mouseButton = mouse.button;
-    painting = true;
+    // painting = true;
   }, false);
 
-  canvasEl.addEventListener("mouseup", () => {
-    painting = false;
+  // canvasEl.addEventListener("mouseup", () => {
+  //   painting = false;
+  // }, false);
+
+  canvasEl.addEventListener("mouseover", () => {
+    painting = true;
   }, false);
 
   canvasEl.addEventListener("mouseout", () => {
